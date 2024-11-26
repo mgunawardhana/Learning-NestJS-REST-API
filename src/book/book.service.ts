@@ -12,5 +12,4 @@ export class BookService {
   async findAll(): Promise<Book[]> {
     return this.bookModel.find();
   }
-
 }
