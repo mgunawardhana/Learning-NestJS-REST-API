@@ -18,9 +18,10 @@ export class BookService {
   }
 
   async findByBookID(id: string): Promise<Book> {
-    const values = this.bookModel.findById(id);
-    console.log(values)
-    return values;
+    return this.bookModel.findById(id);
   }
 
+  async deleteBYBookID(id: string): Promise<Book> {
+    return this.bookModel.findByIdAndDelete(id);
+  }
 }
