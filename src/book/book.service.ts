@@ -12,4 +12,15 @@ export class BookService {
   async findAll(): Promise<Book[]> {
     return this.bookModel.find();
   }
+
+  async create(book: Book): Promise<Book> {
+    return this.bookModel.create(book);
+  }
+
+  async findByBookID(id: string): Promise<Book> {
+    const values = this.bookModel.findById(id);
+    console.log(values)
+    return values;
+  }
+
 }
