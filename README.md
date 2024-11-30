@@ -28,7 +28,7 @@ The Online Book Management System is a backend application designed to handle th
 
 ## Tech Stack:
 - **Backend**: NestJS
-- **Database**: [Insert database details, e.g., PostgreSQL, MySQL, etc.]
+- **Database**: MongoDB
 
 This backend system is built using **NestJS**, offering scalability, modularity, and a robust foundation for future enhancements.
 
