@@ -1,7 +1,7 @@
 
 ![street-market-sunset_23-2151529944](https://github.com/user-attachments/assets/fdbbc584-e3be-4612-a1b4-91565fdfc737)
 
-# Online Book Management System
+# LibraHub Online Book Management System
 
 The Online Book Management System is a backend application designed to handle the management of books, authors, and customer interactions for an online bookstore. The system provides a structured and efficient way to store, retrieve, and update data related to books, authors, customers, and purchases.
 
